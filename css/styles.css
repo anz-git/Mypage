@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 3em auto 0 auto;
+    position:relative;
+    color: rgb(5, 54, 54);
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: rgb(5, 54, 54);
+    font-weight:400;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top_container {
+    background-color: #88bddb;
+    margin: 0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle_container {
+    padding: 100px 0;
+}
+
+.bottom_container {
+    background-color: #66bbff;
+    padding: 50px 0 20px;
+}
+
+.top_pic {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom_pic {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.mypic {
+    border-radius: 50%;
+    width:9%;
+}
+.comp {
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+} 
+.f{   border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin-left: 5%;
+    position: relative;
+} 
+
+}
+.btn:hover{
+    text-decoration: none;
+    background-color: brown;
+}   
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+    padding-bottom: 10px;
+    
+}
+hr{
+    border: dotted #b83b5e .3em;
+    border-bottom: none;
+    width: 4%;
+    margin: 8em auto;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p {
+    line-height: 2;
+}
+.med{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+  
